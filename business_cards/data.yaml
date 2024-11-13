@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['business-card back', 'business-card front']
+
+roboflow:
+  workspace: isec-96srg
+  project: business-card-roebx
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/isec-96srg/business-card-roebx/dataset/3
